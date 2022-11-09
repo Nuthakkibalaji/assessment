@@ -1,0 +1,40 @@
+
+.bg-gradinet{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg,black,purple, red);
+}
+.image{
+    border-radius: 50%;
+    width: 120px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20px;
+
+}
+.content img{
+    border-radius: 30%;
+    width: 200px;
+}
+.content h3{
+    font-size: 30px;
+}
+.content h2{
+    font-size: 40px;
+}
+.content p{
+    font-size: 20px;
+    letter-spacing: 5px;
+    position: relative;
+    bottom: 20px;
+}
+
